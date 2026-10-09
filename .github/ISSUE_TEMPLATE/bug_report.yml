@@ -1,0 +1,27 @@
+name: Bug report
+description: Something is not working as expected.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can I reproduce it?
+      description: Steps, a small example, or a link to a reproduction. If it happens only sometimes, say so.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Project version or commit, browser or runtime, and operating system, as relevant.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, screenshots, or other context
+      description: Include only what helps explain the problem. Remove credentials and personal data.

@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest a useful addition or improvement.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help you do?
+      description: Describe the task or problem, with an example if you have one.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could it work? Alternatives and rough sketches are welcome.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a good result look like?
+      description: A concrete example helps keep the change focused.
